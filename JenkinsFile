@@ -1,5 +1,5 @@
 pipeline{
-    agent javac
+    agent any
     stages{
         stage('build'){
             steps{
