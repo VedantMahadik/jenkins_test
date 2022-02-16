@@ -1,0 +1,10 @@
+pipeline{
+    agent javac
+    stages{
+        stage('build'){
+            steps{
+                java Hello.java
+            }
+        }
+    }
+}
